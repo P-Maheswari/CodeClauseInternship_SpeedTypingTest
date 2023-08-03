@@ -22,7 +22,7 @@ def speed_typing_test(num_sentences,sentence_length):
         accuracy = (total_correct_words/(num_sentences*sentence_length))*100
         print("\nSpeed Typing Test Results:")
         print(f"Time taken:{elapsed_time:.2f}seconds")
-        print(f"Words per minute:{words_per_minute:.2f}")
+        print(f"Words per minute:{words_per_minute}")
         print(f"Accuracy:{accuracy:.2f}%")
 
 if __name__ == "__main__":
